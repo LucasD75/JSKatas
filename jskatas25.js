@@ -13,7 +13,5 @@ function sumSellCount(products) {
     total += products[i].sellCount
   }
   return total / products.length
-
-  // console.log(total)
 }
 console.log(sumSellCount(products))

@@ -10,10 +10,12 @@ const foodSchedule = [
   { name: 'Pasta', isVegan: true }
 ]
 for (let i = 0; i < foodSchedule.length; i++) {
-  if (foodSchedule[i].isVegan === false) {
-    foodSchedule[i].name = fruits.splice(0, 1)[0]
-    foodSchedule[i].isVegan = true
+  const food = foodSchedule[i]
+  if (food.isVegan === false) {
+    food.name = fruits.shift()
+    food.isVegan = true
   }
+  console.log(food)
 }
 
 console.log(foodSchedule)

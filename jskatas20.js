@@ -16,3 +16,16 @@ for (const toy of toys) {
   }
 }
 console.log(popularToys)
+
+// bucle for normal
+
+//* for (let i = 0; i < toys.length; i++) {
+
+//*   const toy = toys[i];
+
+//*   if (toy.sellCount > 15) {
+//*     popularToys.push(toy);
+//*   }
+//* }
+
+//* console.log(popularToys);

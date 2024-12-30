@@ -16,4 +16,3 @@ function sumSellCount(products) {
   // console.log(total)
 }
 console.log(sumSellCount(products))
-// sumSellCount(products)
